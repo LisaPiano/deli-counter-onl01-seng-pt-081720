@@ -18,14 +18,10 @@ new_array =[]
 katz_deli.each_with_index do |x, num|
 new_array.push("#{num + 1}. #{x}")
 
-  end
-end
-
-
-
+  end # end to the do loop
 
  puts "The line is currently: #{new_array.join(" ")}"
-
+end # end to the else
 end # end to the method
 
 def now_serving(katz_deli)
